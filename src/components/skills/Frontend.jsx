@@ -37,7 +37,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">TailwindCSS</h3>
+              <h3 className="skills__name">Typescript</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Typescript</h3>
+              <h3 className="skills__name">NextJs</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">NextJs</h3>
+              <h3 className="skills__name">WordPress</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
