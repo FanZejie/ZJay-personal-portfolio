@@ -7,6 +7,8 @@ import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Qualification from './components/qualification/Qualification';
 import Work from './components/Portfolio/Work';
+import { Footer } from 'antd/es/layout/layout';
+import ScrollUp from './components/scrollup/ScrollUp';
 
 const App = () => {
   return (
@@ -24,8 +26,8 @@ const App = () => {
       <Contact /> */}
     </main>
 
-    {/* <Footer />
-    <ScrollUp /> */}
+    <Footer />
+    <ScrollUp />
     </>
   )
 }
