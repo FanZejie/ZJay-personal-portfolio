@@ -45,6 +45,11 @@
   margin-bottom: var(--mb-0-5);
 }
 
+.link__box{
+  display: flex;
+  
+  column-gap: 2.25rem;
+}
 .work__button {
   width: max-content;
   color: var(--text-color);
