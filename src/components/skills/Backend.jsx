@@ -12,7 +12,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">NestJs</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Beginner</span>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">Java</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">PHP</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Beginner</span>
             </div>
           </div>
         </div>
