@@ -48,14 +48,14 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
+            <div className="qualification__data text-right">
               <div>
                 <h3 className="qualification__title">Intern Java Developer</h3>
                 <span className="qualification__subtitle">
-                  Bejing - China Sports Lottery Technology Group
+                  Bejing - CSLC
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 OCT  - 2021 FEB
+                  <i className="uil uil-calendar-alt"></i> 2020/10 - 2021/02
                 </div>
               </div>
 
@@ -76,22 +76,22 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Java Developer</h3>
                 <span className="qualification__subtitle">
-                Bejing - China Sports Lottery Technology Group
+                Bejing - CSLC
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 JUL  - 2021 OCT
+                  <i className="uil uil-calendar-alt"></i> 2021/07-2021/10
                 </div>
               </div>
             </div>
 
-            <div className="qualification__data">
+            <div className="qualification__data text-right">
               <div>
-                <h3 className="qualification__title">Fontend Developer</h3>
+                <h3 className="qualification__title">Frontend Developer</h3>
                 <span className="qualification__subtitle">
-                Bejing - China Sports Lottery Technology Group
+                Bejing - CSLC
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 OTC - NOW
+                  <i className="uil uil-calendar-alt"></i> 2021/10 - NOW
                 </div>
               </div>
 
@@ -127,7 +127,7 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
+            <div className="qualification__data text-right">
               <div>
                 <h3 className="qualification__title">Hainan University</h3>
                 <span className="qualification__subtitle">
@@ -149,21 +149,21 @@ const Qualification = () => {
 
               <div>
                 <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                {/* <span className="qualification__line"></span> */}
               </div>
 
               <div>
                 <h3 className="qualification__title">AWS Certified Developer - Associate</h3>
-                <span className="qualification__subtitle">
-                  Apple Inc - Spain
-                </span>
+                <a href="https://www.credly.com/badges/17bf0ce9-7921-4620-9b24-b939364c0e9b/public_url" target={"_blank"} className="qualification__subtitle" rel="noreferrer">
+                  Click show Certification
+                </a>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2024/05/13
                 </div>
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Designer</h3>
                 <span className="qualification__subtitle">Figma - Spain</span>
@@ -175,7 +175,7 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

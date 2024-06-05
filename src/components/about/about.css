@@ -29,6 +29,9 @@
     color: var(--title-color);
     margin-bottom: var(--mb-0-5);
 }
+.c02__icon{
+    margin: 0;
+}
 
 .about__title {
     font-size: var(--small-font-size);

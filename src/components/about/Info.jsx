@@ -1,4 +1,5 @@
 import React from "react";
+import awsc02Img from "../../assets/aws.png";
 
 const Info = () => {
   return (
@@ -18,10 +19,10 @@ const Info = () => {
       </div>
 
       <div className="about__box">
-        <i class="bx bx-support about__icon"></i>
-
-        <h3 className="about__title">Support</h3>
-        <span className="about__subtitle">Online 24/7</span>
+        {/* <i class="bx bxl-aws about__icon"></i> */}
+        <img src={awsc02Img} alt="aws" className="c02__icon" width="25px" height="24px" />
+        <h3 className="about__title">AWS</h3>
+        <span className="about__subtitle">DVA-C02</span>
       </div>
     </div>
   );

@@ -9,6 +9,7 @@ import Qualification from './components/qualification/Qualification';
 import Work from './components/Portfolio/Work';
 import { Footer } from 'antd/es/layout/layout';
 import ScrollUp from './components/scrollup/ScrollUp';
+import Contact from './components/contact/Contact';
 
 const App = () => {
   return (
@@ -22,8 +23,8 @@ const App = () => {
       <Services />
       <Qualification />
       <Work />
-      {/* <Testimonials />
-      <Contact /> */}
+      {/* <Testimonials /> */}
+      <Contact />
     </main>
 
     <Footer />

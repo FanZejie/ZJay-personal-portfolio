@@ -10,10 +10,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_x1hewh5",
-        "template_2ki8hlo",
+        "service_2hjbhmo",
+        "template_s6let64",
         form.current,
-        "vxDcl4UI2jbOQBn6f"
+        "7LmQxfApbI1naOY0x"
       )
       e.target.reset()
   };
@@ -35,7 +35,7 @@ const Contact = () => {
               <span className="contact__card-data">user@gmail.com</span>
 
               <a
-                href="mailto:examplemail@gmail.com.com"
+                href="mailto:fanzejiea@gmail.com"
                 className="contact__button"
               >
                 Write me{" "}

@@ -4,20 +4,20 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/"
+        href="https://www.linkedin.com/in/zjayfan/?locale=en_US"
         className="home__social-icon"
         target="_blank" rel="noreferrer"
       >
-        <i className="uil uil-instagram"></i>
+        <i className="uil uil-linkedin-alt"></i>
       </a>
 
-      <a
+      {/* <a
         href="https://dribbble.com/"
         className="home__social-icon"
         target="_blank" rel="noreferrer"
       >
         <i className="uil uil-dribbble"></i>
-      </a>
+      </a> */}
 
       <a
         href="https://github.com/FanZejie"
