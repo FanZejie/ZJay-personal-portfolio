@@ -1,9 +1,11 @@
 import React, { useRef } from "react";
+import { message } from 'antd';
 import emailjs from '@emailjs/browser';
 import "./contact.css";
 
 const Contact = () => {
   const form = useRef();
+  const [messageApi, contextHolder] = message.useMessage();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -14,11 +16,28 @@ const Contact = () => {
         "template_s6let64",
         form.current,
         "7LmQxfApbI1naOY0x"
+      ).then(
+        (response) => {
+          messageApi.open({
+            type: 'success',
+            content: "your mail have been sent， thanks for your message",
+          });
+         
+        },
+        (error) => {
+          messageApi.open({
+            type: 'success',
+            content: "Failed to send the message"+ error,
+          });
+          
+        }
       )
       e.target.reset()
   };
 
   return (
+    <>
+    {contextHolder}
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
       <span className="section__subtitle">Contact Me</span>
@@ -131,6 +150,8 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    </>
+    
   );
 };
 

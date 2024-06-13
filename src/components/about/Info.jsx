@@ -18,7 +18,8 @@ const Info = () => {
         <span className="about__subtitle">10 + Projects</span>
       </div>
 
-      <div className="about__box">
+      <div className="about__box pointer" onClick={()=>{
+        window.open("https://www.credly.com/badges/17bf0ce9-7921-4620-9b24-b939364c0e9b/public_url", "_blank")}}>
         {/* <i class="bx bxl-aws about__icon"></i> */}
         <img src={awsc02Img} alt="aws" className="c02__icon" width="25px" height="24px" />
         <h3 className="about__title">AWS</h3>
