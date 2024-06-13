@@ -17,13 +17,15 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I have three years of experience as a software engineer with
-            full-stack development skills. I am knowledgeable in DevOps
-            practices and use AWS in projects, holding an AWS Certified
-            Developer – Associate certification. Additionally, I can quickly
-            build content management websites and corporate websites using
-            WordPress.
+            I have been working as a software developer at China Sports Lottery
+            Technology for three years. I have experience in both backend and
+            frontend development, which makes me as a full-stack engineer.
+            <br />
+            Additionally, I have hands-on experience with DevOps,
+            containerization, and cloud services. I have also earned the AWS
+            Certified Developer – Associate certification.
           </p>
+          <p className="about__description"></p>
 
           <a download="" href={CV} className="button button--flex">
             Download CV
